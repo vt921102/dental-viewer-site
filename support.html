@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Dental Viewer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./">Dental Viewer</a>
+  <nav><a href="support.html" aria-current="page">Support</a> <a href="privacy.html">Privacy</a></nav>
+</header>
+<main>
+  <h1>Support</h1>
+
+  <div class="card">
+    <p><strong>Need help?</strong> Email
+    <a href="mailto:vantoan921102@gmail.com?subject=Dental%20Viewer%20support">vantoan921102@gmail.com</a>
+    and include your macOS version and what you were trying to open.
+    You will get a reply as soon as possible.</p>
+    <p class="note">Please don't attach patient files or screenshots showing patient
+    names. Describe the export instead — which scanner or software made it and
+    which file types it contains.</p>
+  </div>
+
+  <h2>Requirements</h2>
+  <ul>
+    <li>macOS 14 Sonoma or later</li>
+    <li>Apple Silicon or Intel Mac</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>Which files can Dental Viewer open?</h3>
+  <p>Zip exports, case folders, and single files. Meshes in STL, PLY, OBJ, OFF,
+  3MF, glTF / GLB and VTK; CBCT and DICOM series; and the .3oxz, .dentalproject
+  and .dentalcase containers. Zips inside zips are expanded automatically.</p>
+
+  <h3>How do I open a case?</h3>
+  <p>Use <em>Import Zip…</em> (⌘O) or <em>Import Folder…</em> (⇧⌘O), drag the
+  zip or folder onto the window, or right-click it in Finder and choose
+  <em>Open With ▸ Dental Viewer</em>.</p>
+
+  <h3>I opened a single mesh and the case details or snapshots are missing.</h3>
+  <p>For your privacy, macOS only lets the app read exactly what you choose. When
+  you open one file, the other files next to it are off-limits. Import the whole
+  folder or the zip instead and everything in it will appear.</p>
+
+  <h3>"No 3D meshes or DICOM found in this package."</h3>
+  <p>The export doesn't contain any mesh or DICOM files the app recognises. Check
+  that the zip or folder holds the exported scan files. If it only contains an
+  <code>index.html</code> viewer, open that file in a web browser.</p>
+
+  <h3>Which systems' case details can it read?</h3>
+  <p>iTero exports show full case information grouped by Patient, Provider and
+  Order. For other systems the meshes, DICOM and snapshots all work, and every
+  metadata field in the bundled XML or JSON is listed as found.</p>
+
+  <h3>How do I show one part on its own?</h3>
+  <p>Double-click it in the mesh list. <em>Show All Meshes</em> (⇧A) brings the rest
+  back; unchecking a mesh hides it.</p>
+
+  <h3>Does my data leave my Mac?</h3>
+  <p>No. Dental Viewer has no internet access and never uploads anything. See the
+  <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h3>Can I use it to diagnose or plan treatment?</h3>
+  <p>No. Dental Viewer is a file viewer. It is not a medical device and is not
+  intended for diagnosis or treatment planning.</p>
+</main>
+<footer>© 2026 Toan Van · iTero, 3Shape, exocad and other names are trademarks of
+their respective owners; Dental Viewer is not affiliated with or endorsed by them.</footer>
+</body>
+</html>
